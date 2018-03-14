@@ -3,7 +3,7 @@ Used docker-compose to set up the MongoDB and attached Eve REST API
 
 command line usage is as follows:
 
-```docker-compose build && docker-compose run --service-ports ClinicalReportR /data/<VCF FILE>```
+```docker-compose run --service-ports ClinicalReportR /data/<VCF FILE>```
 
 Note that ClinicalReportR and clinicalReporting_DB_RESTAPI should have the same parent directory.
 
